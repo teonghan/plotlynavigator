@@ -23,7 +23,7 @@ It’s like Tableau, but Streamlit-powered, Plotly-stylized, and snack-sized.
 
 1. Clone this repo  
 ```bash
-git clone https://github.com/yourusername/plotly-navigator.git
+git clone https://github.com/teonghan/plotlynavigator.git
 cd plotly-navigator
 ```
 
@@ -51,7 +51,3 @@ streamlit run app.py
 
 ## ✨ Demo  
 > 🧪 Add a GIF or short Loom here showing drag-and-drop + charts appearing.
-
-## 📬 Feedback  
-Drop your thoughts, bugs, or feature ideas in [Issues](https://github.com/yourusername/plotly-navigator/issues)  
-Or say hi on Twitter [@yourhandle]
