@@ -23,5 +23,35 @@ It’s like Tableau, but Streamlit-powered, Plotly-stylized, and snack-sized.
 
 1. Clone this repo  
 ```bash
-git clone https://github.com/teonghan/plotlynavigator.git
+git clone https://github.com/yourusername/plotly-navigator.git
 cd plotly-navigator
+```
+
+2. Install dependencies  
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the app  
+```bash
+streamlit run app.py
+```
+
+4. Upload a `.csv` or `.xlsx` and go wild.
+
+## 🛠️ Built With  
+- [Streamlit](https://streamlit.io) for the snappy UI  
+- [Plotly](https://plotly.com/python/) for visual sugar  
+- [Pandas](https://pandas.pydata.org) & [NumPy](https://numpy.org) because… duh.
+
+## 🤓 Bonus Perks  
+- Built-in chart explanations (no more Googling “what is a violin plot?”)  
+- Auto-detection of column types  
+- Snippets of Plotly code in case you wanna take it further
+
+## ✨ Demo  
+> 🧪 Add a GIF or short Loom here showing drag-and-drop + charts appearing.
+
+## 📬 Feedback  
+Drop your thoughts, bugs, or feature ideas in [Issues](https://github.com/yourusername/plotly-navigator/issues)  
+Or say hi on Twitter [@yourhandle]
