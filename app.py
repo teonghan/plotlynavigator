@@ -182,7 +182,7 @@ def render_two_column_viz(df, x_col, y_col, chart_type, all_cols):
 
     if chart_type == "Scatter Plot":
         color_by = st.selectbox("Color points by (optional):", ['None'] + [c for c in all_cols if c not in [x_col, y_col]], key=f"scatter_color_{x_col}_{y_col}")
-        size_by = st.selectbox("Size points by (optional, numeric):", ['None'] + [c for c in all_cols if c not in [x_col, y_col] and df[c].dtype in np.number], key=f"scatter_size_{x_col}_{y_col}")
+        size_by = st.selectbox("Size points by (optional, numeric):", ['None'] + [c for c in all_cols if c not in [x_col, y_col] and np.issubdtype(df[c].dtype, np.number)], key=f"scatter_size_{x_col}_{y_col}")
 
         hover_data = {x_col: True, y_col: True}
         if color_by != 'None':
