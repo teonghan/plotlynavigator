@@ -1,4 +1,4 @@
-name: plotly-navigator
+name: plotlynavigator
 channels:
   - defaults
   - conda-forge
