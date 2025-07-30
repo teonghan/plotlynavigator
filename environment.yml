@@ -1,0 +1,12 @@
+name: plotly-navigator
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - streamlit
+  - pandas
+  - numpy
+  - openpyxl
+  - xlrd
+  - plotly
