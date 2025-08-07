@@ -8,7 +8,7 @@
 ENV_NAME="plotlynavigator"
 APP_DIR="$(pwd)"
 SHORTCUT_NAME="Run Plotly Navigator"
-YAML_FILE="$APP_DIR/environment.yml"
+YAML_FILE="$APP_DIR/__environment__.yml"
 
 echo "---------------------------------------------"
 echo "🧠 Detecting architecture..."
